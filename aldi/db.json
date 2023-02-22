@@ -1,0 +1,29 @@
+{
+    "user": [
+      {
+        "id": 774678,
+        "password": "ntuser",
+        "FirstName": "Eadith",
+        "LastName": "Goeff",
+        "Email": "Eadith.Goeff@Aldi.us",
+        "HireDate": "2017-11-20T00:00:00",
+        "LeaderId": 637652,
+        "Role": "Manager",
+        "PtoBalance": {
+        "Vacation": 4,
+        "Personal": 0,
+        "Sick": 0
+        }
+      },
+      {
+        "id": "ntuser",
+        "name": "Fullname",
+        "password": "ntuser",
+        "email": "email@email.com",
+        "phone": "56778889989",
+        "country": "singapore",
+        "address": "address1\naddrees2",
+        "gender": "male"
+      }
+    ]
+  }
