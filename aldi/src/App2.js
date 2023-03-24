@@ -2,11 +2,12 @@ import { useEffect, useState } from "react";
 function App2(){
     const [backendData, setBackendData] = useState([{}])
     useEffect(() => {
-        fetch("/api").then(
+        fetch("/users").then(
             response => response.json()
         ).then(
             data => {
                 setBackendData(data)
+                console.log(data)
             }
         )
     }, [])
