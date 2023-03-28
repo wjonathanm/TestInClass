@@ -9,7 +9,7 @@ app.get("/api", (req, res) => {
 })
 
 app.get('/users', (req,res) => {
-    client.query('Select * From employee', (err, resp) => {
+    client.query('Select * From employee Where id = 774678', (err, resp) => {
         if(!err){
             console.log(resp.rows)
             res.send(resp.rows)
